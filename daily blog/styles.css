@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2494521435/display_1500/stock-photo-a-seamless-collage-of-vintage-newspapers-articles-and-advertisements-the-aged-paper-texture-and-2494521435.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* Removed background-color: #f4f4f4; */
+}
+
+
+main {
+    flex: 1;
+}
+
+header {
+    background: #128eda;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin: 0 0 10px 0;
+}
+
+article p {
+    margin: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background:  #128eda;
+    color: #ffffff;
+}
+
+#blog-form {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+#blog-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#blog-form input,
+#blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#blog-form button {
+    background: #128eda;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#blog-form button:hover {
+    background: #0d6efd;
+}
