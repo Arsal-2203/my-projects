@@ -15,6 +15,7 @@ Welcome to my collection of web development projects! This repository showcases 
 | **my portfolio**| My personal portfolio website showcasing my skills, projects, and contact information in a modern and clean design. |
 | **quiz**        | An interactive quiz game with multiple-choice questions, score tracking, and feedback after each question. |
 | **to do app**   | A simple and clean to-do list app to add, delete, and manage daily tasks. Built using JavaScript. |
+| **Travel Agency**   | A simple travel agency website works with the hepl of whatsapp. |
 
 ---
 
