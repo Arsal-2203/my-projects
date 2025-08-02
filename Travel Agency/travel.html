@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WanderWave Travel Agency</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center font-sans" >
+<style>
+    body {
+        background-image: url('travel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+  <!-- Welcome & Description -->
+  <div class="relative text-center p-6 text-white max-w-xl mx-auto rounded-lg">
+    <div class="absolute inset-0 bg-black bg-opacity-60 rounded-lg -z-10"></div>
+    <h1 class="text-4xl font-bold mb-4 relative z-10">Welcome to WanderWave Travels</h1>
+    <p class="text-lg relative z-10">
+      Discover breathtaking destinations with ease. We specialize in customized tours, budget-friendly packages, and unforgettable experiences for solo travelers, couples, and families. 
+      Your journey begins here.
+    </p>
+    <button id="openFormBtn" class="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-md transition duration-300 relative z-10">
+      Book Now
+    </button>
+  </div>
+
+  <div style="height: 100px;"></div>
+
+  <!-- Form Modal -->
+  <div id="formModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+      <h2 class="text-xl font-semibold mb-4 text-blue-800">Tell us about yourself</h2>
+      <form id="enquiryForm">
+        <input type="text" id="name" placeholder="Your Name" required class="w-full mb-3 p-2 border border-gray-300 rounded" />
+        <input type="email" id="email" placeholder="Your Email" required class="w-full mb-3 p-2 border border-gray-300 rounded" />
+        <input type="tel" id="phone" placeholder="Phone Number" required class="w-full mb-3 p-2 border border-gray-300 rounded" />
+        <input type="text" id="destination" placeholder="Preferred Destination" class="w-full mb-3 p-2 border border-gray-300 rounded" />
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    const openBtn = document.getElementById('openFormBtn');
+    const formModal = document.getElementById('formModal');
+    const form = document.getElementById('enquiryForm');
+
+    openBtn.addEventListener('click', () => {
+      formModal.classList.remove('hidden');
+    });
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const destination = document.getElementById('destination').value.trim();
+
+     const whatsappNumber = '923001234567'; // ✅ NO + or spaces
+     const message = `Hi! My name is ${name}, my email is ${email}, my phone number is ${phone}, and I would like to travel to ${destination}.`;
+     const encodedMessage = encodeURIComponent(message);
+     const whatsappURL = `https://wa.me/${923018302020}?text=${encodedMessage}`;
+     window.location.href = whatsappURL;
+
+    });
+
+    // Optional: Close form modal on background click
+    formModal.addEventListener('click', function(e) {
+      if (e.target === formModal) {
+        formModal.classList.add('hidden');
+      }
+    });
+  </script>
+
+</body>
+</html>
