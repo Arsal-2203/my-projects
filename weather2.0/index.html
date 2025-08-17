@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-wrap">
+    <header class="topbar">
+      <h1 class="brand">Weather App <span class="pill">2.0</span></h1>
+      <div class="controls">
+        <input id="search" class="input" placeholder="Search city (e.g., Karachi)" autocomplete="off" />
+        <button id="loc" class="btn">Use my location</button>
+        <button id="unit" class="btn">°C</button>
+      </div>
+    </header>
+
+    <main class="grid">
+      <!-- Current panel -->
+      <section class="card glass current">
+        <div class="row">
+          <h2 id="city">—</h2>
+          <span id="time" class="muted">—</span>
+        </div>
+        <div class="row big">
+          <div id="icon" class="emoji">🌤️</div>
+          <div id="temp" class="temp">--°</div>
+        </div>
+        <p id="desc" class="desc">—</p>
+        <div class="meta">
+          <span id="feels">Feels like —°</span>
+          <span id="wind">Wind — m/s</span>
+          <span id="hum">Humidity —%</span>
+        </div>
+      </section>
+
+      <!-- Forecast panel -->
+      <section class="card glass forecast">
+        <h3>5-Day Forecast</h3>
+        <div id="forecast" class="forecast-list">
+          <!-- injected -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Data: OpenWeather</span>
+      <span>Built with ❤️</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
