@@ -15,7 +15,10 @@ Welcome to my collection of web development projects! This repository showcases 
 | **my portfolio**| My personal portfolio website showcasing my skills, projects, and contact information in a modern and clean design. |
 | **quiz**        | An interactive quiz game with multiple-choice questions, score tracking, and feedback after each question. |
 | **to do app**   | A simple and clean to-do list app to add, delete, and manage daily tasks. Built using JavaScript. |
-| **Travel Agency**   | A simple travel agency website works with the hepl of whatsapp. |
+| **Travel Agency**   | A simple travel agency website works with the help of whatsapp. |
+| **🌦️ Weather 2.0** | A modern weather dashboard with real-time data, animated icons, severe weather alerts, and a fun “Weather as Emoji” mode. |
+| **💱 Currency Converter** | Real-time exchange rates with support for 150+ currencies, historical graphs (7–30 days), and offline mode with last fetched rates. |
+| **🪙 Crypto Tracker** | A sleek crypto dashboard showing live prices, market cap, and 24h trends of top cryptocurrencies, with interactive charts. |
 
 ---
 
