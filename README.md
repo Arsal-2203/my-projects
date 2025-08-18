@@ -18,10 +18,20 @@ Welcome to my collection of mini-projects! 🚀 These projects showcase my journ
 | ✈ **Travel Agency** | A travel website integrated with WhatsApp for bookings. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 🌦 **Weather 2.0** | Modern dashboard with animated icons, alerts, and “Weather as Emoji” mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 💱 **Currency Converter** | Real-time exchange rates for 150+ currencies, with graphs & offline mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 🪙 **Crypto Tracker** | Sleek crypto dashboard with live prices, market cap & trends. | — | [🔗 Live Demo](<img width="1828" height="864" alt="image" src="https://github.com/user-attachments/assets/92fbcd0c-3b1b-43ed-bc2e-ff263165f8b9" />
-) · [📂 Repo](#) |
+| 🪙 **Crypto Tracker** | Sleek crypto dashboard with live prices, market cap & trends. | — |[🔗 Live Demo](#) · [📂 Repo](#) |
 
 ---
+
+## 🔍 Project Previews
+
+### 🌤 Weather 2.0
+![Weather Preview](assets/weather.png)
+
+### 💱 Currency Converter
+![Currency Converter Preview](assets/currency-converter.png)
+
+### 📈 Crypto Tracker
+![Crypto Tracker Preview](assets/crypto-tracker.png)
 
 ## 🚀 Getting Started  
 
