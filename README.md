@@ -31,9 +31,7 @@ Welcome to my collection of mini-projects! 🚀 These projects showcase my journ
 ![Currency Converter Preview](assets/currency-converter.png)
 
 ### 📈 Crypto Tracker
-![Crypto Tracker Preview](<img width="600" height="600" alt="image" src="<img width="1890" height="814" alt="crypto" src="https://github.com/user-attachments/assets/a5e4bc78-ac85-4270-b24d-f28860dd21fc" />
-" />
-)
+![Crypto Tracker Preview](<img width="50" height="50" alt="crypto" src="https://github.com/user-attachments/assets/a5e4bc78-ac85-4270-b24d-f28860dd21fc"/>)
 
 ## 🚀 Getting Started  
 
