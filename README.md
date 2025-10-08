@@ -6,8 +6,8 @@ Welcome to my collection of mini-projects! 🚀 These projects showcase my journ
 
 ## 📂 Project Showcase
 
-| Project | Description | Preview | Links |
-|---------|-------------|---------|-------|
+| Project | Description | Preview |
+|---------|-------------|---------|
 | 🌦 **Weather App** | A weather forecast app that fetches real-time API data. Users can search for any city and get current weather conditions. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 📝 **Admission Form** | A student admission form with validation and data storage. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 📖 **Daily Blog** | A blog layout where users can post daily thoughts/articles. Focused on UI + formatting practice. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
@@ -18,7 +18,7 @@ Welcome to my collection of mini-projects! 🚀 These projects showcase my journ
 | ✈ **Travel Agency** | A travel website integrated with WhatsApp for bookings. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 🌦 **Weather 2.0** | Modern dashboard with animated icons, alerts, and “Weather as Emoji” mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
 | 💱 **Currency Converter** | Real-time exchange rates for 150+ currencies, with graphs & offline mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 🪙 **Crypto Tracker** | Sleek crypto dashboard with live prices, market cap & trends. | — |[🔗 Live Demo](#) · [📂 Repo](#) |
+| 🪙 **Crypto Tracker** | Sleek crypto dashboard with live prices, market cap & trends. | — <img width="400" height="400" alt="crypto" src="https://github.com/user-attachments/assets/c828d208-a100-4bf8-a04c-c8b0019ec079" /> |
 
 ---
 
