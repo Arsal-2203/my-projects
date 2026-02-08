@@ -1,36 +1,65 @@
-# 💻 My Web Development Projects
+# 💻 Web Development Projects – Muhammad Arsalan
 
-Welcome to my collection of mini-projects! 🚀 These projects showcase my journey in front-end and back-end development with **HTML, CSS, JavaScript, and PHP**.
+A curated collection of real-world web projects built using  
+**HTML, CSS, JavaScript, PHP & MySQL** 🚀
 
----
-
-## 📂 Project Showcase
-
-| Project | Description | Preview |
-|---------|-------------|---------|
-| 🌦 **Weather App** | A weather forecast app that fetches real-time API data. Users can search for any city and get current weather conditions. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 📝 **Admission Form** | A student admission form with validation and data storage. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 📖 **Daily Blog** | A blog layout where users can post daily thoughts/articles. Focused on UI + formatting practice. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 🔐 **Login Form** | A basic login system with validation. Extendable with PHP & MySQL authentication. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 👨‍💻 **Portfolio** | Personal portfolio website showcasing my skills, projects, and contact info. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| ❓ **Quiz App** | Interactive quiz game with MCQs, scoring, and feedback. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| ✅ **To-Do App** | A simple to-do list app to add, delete, and manage tasks. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| ✈ **Travel Agency** | A travel website integrated with WhatsApp for bookings. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 🌦 **Weather 2.0** | Modern dashboard with animated icons, alerts, and “Weather as Emoji” mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 💱 **Currency Converter** | Real-time exchange rates for 150+ currencies, with graphs & offline mode. | — | [🔗 Live Demo](#) · [📂 Repo](#) |
-| 🪙 **Crypto Tracker** | Sleek crypto dashboard with live prices, market cap & trends. |  <img width="400" height="400" alt="crypto" src="https://github.com/user-attachments/assets/c828d208-a100-4bf8-a04c-c8b0019ec079" /> |
+These projects focus on practical development, UI clarity, and real functionality.
 
 ---
 
+## 🌟 Featured Projects
 
+### 🌦 Weather App 2.0
+- Real-time weather data with modern UI
+- Animated icons & alerts
+- Tech: HTML, CSS, JS, API  
+🔗 Live Demo: https://your-link-here
 
-## 🚀 Getting Started  
+---
 
-Clone this repository and explore any project:  
+### 🪙 Crypto Tracker
+- Live crypto prices & market trends
+- Clean dashboard UI
+- Tech: JavaScript, API  
+🔗 Live Demo: https://your-link-here
 
-```bash
-git clone https://github.com/Arsal-2203/my-projects.git
-cd my-projects
+---
 
+### 💱 Currency Converter
+- Real-time exchange rates
+- Offline mode + charts
+- Tech: HTML, CSS, JS  
+🔗 Live Demo: https://your-link-here
 
+---
 
+### 🔐 Login System
+- Form validation
+- Extendable PHP & MySQL auth system
+- Tech: PHP, MySQL  
+🔗 Code: ./login-form
+
+---
+
+### 👨‍💻 Portfolio Website
+- Personal portfolio showcasing skills & projects
+- Responsive design
+- Tech: HTML, CSS, JS  
+🔗 Live Demo: https://your-portfolio-link
+
+---
+
+## 🛠 Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
+- PHP  
+- MySQL  
+
+---
+
+## 📌 About Me
+🎓 CS Student & Web Developer  
+💻 Focused on building real-world full-stack applications  
+
+🔗 GitHub: https://github.com/Arsal-2203
